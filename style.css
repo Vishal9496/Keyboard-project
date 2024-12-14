@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.keyboard{
+    width: 80%;
+    height: 60vh;
+    margin: 8vh auto;
+    background-color: black;
+    display: flex;
+    text-align: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.key{
+    width: 3rem;
+    height: 3rem;
+    border:2px solid white;
+    border-radius: 10%;
+    border-color: white;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 1.5rem;
+}
+.key:hover{
+    cursor: pointer;
+}
+#output{
+    width: 80%;
+    height: 15vh;  
+    border: 2px solid black;
+    margin: 5vh auto;
+}
